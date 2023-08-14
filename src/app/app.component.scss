@@ -1,0 +1,15 @@
+h1 {
+  font-family: 'Caprasimo', cursive;
+  font-size: 38px;
+  text-align: center;
+}
+
+.heart {
+	animation: beat .5s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.1); }
+}
