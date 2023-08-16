@@ -9,6 +9,15 @@ h1 {
 	transform-origin: center;
 }
 
+.menu {
+  height: 40px;
+  width: 40px;
+}
+
+.placeholder-div {
+  opacity: 0;
+}
+
 /* Heart beat animation */
 @keyframes beat{
 	to { transform: scale(1.1); }

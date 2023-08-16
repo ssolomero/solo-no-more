@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as SEATING_CHART from './seating-chart.json';
 
 @Component({
   selector: 'app-find-your-table',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FindYourTableComponent implements OnInit {
 
+  seatingChart = SEATING_CHART;
+  name = '';
+  filteredTables = this.seatingChart.tables;
+
   constructor() { }
 
   ngOnInit(): void {
+
+  }
+
+  filter() {
+    this.filteredTables = this.seatingChart.tables
+      .filter(table => table.names
+      .some(name => name.toLowerCase().includes(this.name.toLowerCase())));
   }
 
 }

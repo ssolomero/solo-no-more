@@ -1,1 +1,8 @@
-<p>find-your-table works!</p>
+<div class="container">
+  <input (input)="filter()" type="text" placeholder="Search your name" [(ngModel)]="name">
+  <div>{{name}}</div>
+  <div *ngFor="let table of filteredTables">
+    <div>{{table.number}}</div>
+    <div>{{table.names}}</div>
+  </div>
+</div>

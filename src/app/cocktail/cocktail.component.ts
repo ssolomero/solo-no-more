@@ -9,11 +9,11 @@ export class CocktailComponent implements OnInit {
 
   sigCocks = [
     {
-      name: 'hers | ranch water',
-      description: 'tequila, topo chico, lime'
+      name: 'lychee martini',
+      description: 'vodka, lychee, lime'
     },
     {
-      name: 'his | ginger paloma',
+      name: 'ginger paloma',
       description: 'tequila, ginger beer, grapfruit soda'
     }
   ]

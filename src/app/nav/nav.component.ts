@@ -11,17 +11,18 @@ export class NavComponent implements OnInit {
     {
       title: 'drinks',
       route: '/cocktail',
-      imgUrl: '../../assets/N+S-01.jpg'
     },
     {
       title: 'din din',
       route: '/menu',
-      imgUrl: '../../assets/N+S-01.jpg'
     },
     {
       title: 'table no.',
       route: '/seating-chart',
-      imgUrl: '../../assets/N+S-01.jpg'
+    },
+    {
+      title: 'photobooth',
+      route: '/activities'
     }
   ]
 

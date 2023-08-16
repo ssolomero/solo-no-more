@@ -14,21 +14,12 @@ body {
   font-weight: 600;
 }
 
-#footer {
-  position: fixed;
-  width: 100%;
-  bottom: 10%;
-  text-align: center;
-  color: lightgray;
-  font-size: 16px;
-}
-
 /* Make fadein a separate animation - It prevents the page from showing before the animation is triggered. */
 .slidein-transition {
-  -moz-animation: fadein 500ms ease-in;
-  -webkit-animation: fadein 500ms ease-in;
-  -o-animation: fadein 500ms ease-in;
-  animation: fadein 500ms ease-in;
+  -moz-animation: fadein 700ms ease-in;
+  -webkit-animation: fadein 700ms ease-in;
+  -o-animation: fadein 700ms ease-in;
+  animation: fadein 700ms ease-in;
 }
 
 @-webkit-keyframes fadein {

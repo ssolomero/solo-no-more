@@ -8,6 +8,8 @@ import { CocktailComponent } from './cocktail/cocktail.component';
 import { DinnerComponent } from './dinner/dinner.component';
 import { FindYourTableComponent } from './find-your-table/find-your-table.component';
 import { NavComponent } from './nav/nav.component';
+import { ActivitiesComponent } from './activities/activities.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { NavComponent } from './nav/nav.component';
     CocktailComponent,
     DinnerComponent,
     FindYourTableComponent,
-    NavComponent
+    NavComponent,
+    ActivitiesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
