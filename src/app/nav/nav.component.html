@@ -1,5 +1,7 @@
-<div class="container nav-menu slidein-transition" *ngFor="let navItem of navItems">
-  <div routerLink="{{navItem.route}}" class="nav-item my-4 d-flex">{{navItem.title}}</div>
+<div class="container text-center">
+  <div class="nav-menu slidein-from-left" *ngFor="let navItem of navItems">
+    <div routerLink="{{navItem.route}}" class="nav-item my-4 d-flex">{{navItem.title}}</div>
+  </div>
 </div>
 
 <div id="footer">
