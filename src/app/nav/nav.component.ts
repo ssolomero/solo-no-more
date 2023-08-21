@@ -21,7 +21,7 @@ export class NavComponent implements OnInit {
       route: '/seating-chart',
     },
     {
-      title: 'photobooth',
+      title: 'festivities',
       route: '/activities'
     }
   ]
