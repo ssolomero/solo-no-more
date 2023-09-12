@@ -14,6 +14,16 @@ body {
   font-weight: 600;
 }
 
+.body {
+  margin: 0 10%;
+}
+
+.description {
+  font-size: 12px;
+  margin: auto 10%;
+  color: gray;
+}
+
 /* Make fadein a separate animation - It prevents the page from showing before the animation is triggered. */
 .slidein-transition {
   -moz-animation: fadein 700ms ease-in;

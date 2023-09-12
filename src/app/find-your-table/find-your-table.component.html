@@ -1,6 +1,6 @@
 <div class="container text-center">
   <input (input)="filter()" type="text" placeholder="Search your name" [(ngModel)]="name">
-  <div *ngFor="let table of filteredTables" class="mt-4">
+  <div *ngFor="let table of filteredTables" class="my-4">
     <div class="subhead">Table {{table.number}}</div>
     <div *ngFor="let name of table.names">{{name}}</div>
   </div>

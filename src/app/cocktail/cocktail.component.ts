@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SignatureCocktails, OtherDrinks } from './cocktail-content';
 
 @Component({
   selector: 'app-cocktail',
@@ -7,16 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CocktailComponent implements OnInit {
 
-  sigCocks = [
-    {
-      name: 'lychee martini',
-      description: 'vodka, lychee, lime'
-    },
-    {
-      name: 'ginger paloma',
-      description: 'tequila, ginger beer, grapfruit soda'
-    }
-  ]
+  sigCocks = SignatureCocktails;
+  otherDrinks = OtherDrinks;
 
   constructor() { }
 
