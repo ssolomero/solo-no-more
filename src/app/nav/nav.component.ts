@@ -9,10 +9,6 @@ export class NavComponent implements OnInit {
 
   navItems = [
     {
-      title: "'mony",
-      route: '/ceremony'
-    },
-    {
       title: 'drinks',
       route: '/cocktail',
     },
