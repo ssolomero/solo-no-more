@@ -3,20 +3,6 @@
     {
       "number": 1,
       "names": [
-        "Redentor Badel", 
-        "Pastora Badel", 
-        "Jun Solomero", 
-        "Elvie Solomero", 
-        "Nennette Rose", 
-        "Greg Sloan",
-        "Katherine Sloan",
-        "Cecile Gentzel",
-        "Clay Gentzel"
-      ]
-    },
-    {
-      "number": 2,
-      "names": [
         "Joy Castro",
         "Jimmy Dang",
         "Celeeza Laureano",
@@ -28,7 +14,7 @@
       ]
     },
     {
-      "number": 3,
+      "number": 2,
       "names": [
         "Ray Han",
         "Jay Kim",
@@ -40,7 +26,7 @@
       ]
     },
     {
-      "number": 4,
+      "number": 3,
       "names": [
         "Janiel Solomero",
         "Marissa Rose Solomero",
@@ -53,19 +39,20 @@
       ]
     },
     {
-      "number": 5,
+      "number": 4,
       "names": [
-        "Raul Rojas",
-        "Annie Rojas",
-        "Dos Rojas",
-        "Eric Rojas",
-        "Phillip Rojas",
-        "Noberto Rojas",
-        "Vicky Rojas"
+        "Redentor Badel", 
+        "Pastora Badel", 
+        "Jun Solomero", 
+        "Elvie Solomero", 
+        "Nennette Rose", 
+        "Greg Sloan",
+        "Katherine Sloan",
+        "Elaine Sloan"
       ]
     },
     {
-      "number": 6,
+      "number": 5,
       "names": [
         "Paz Relao",
         "Romy Relao",
@@ -79,14 +66,26 @@
       ]
     },
     {
+      "number": 6,
+      "names": [
+        "Raul Rojas",
+        "Annie Rojas",
+        "Dos Rojas",
+        "Eric Rojas",
+        "Phillip Rojas",
+        "Noberto Rojas",
+        "Vicky Rojas"
+      ]
+    },
+    {
       "number": 7,
       "names": [
         "Krista Andres",
         "Jay Ramos",
         "Sabino Ramos",
         "Sylvia Andres",
-        "Severa Minda Ruckenbrod",
-        "Susan Merle Aldover"
+        "Minda Ruckenbrod",
+        "Susan Aldover"
       ]
     },
     {
@@ -99,7 +98,8 @@
         "Lynn DeGuzman",
         "Ver DeGuzman",
         "Eleanor Pascual",
-        "Alex Pascual"
+        "Alex Pascual",
+        "Linda Mison"
       ]
     },
     {
@@ -111,33 +111,15 @@
         "Cristy Castro",
         "Helen Bonifacio",
         "Cherry Godoy",
-        "Vener Godoy"
+        "Vener Godoy",
+        "Cecile Gentzel",
+        "Clay Gentzel",
+        "Lorna Luna",
+        "Jun Luna"
       ]
     },
     {
       "number": 10,
-      "names": [
-        "Dhruti Patel",
-        "Kunal Shah",
-        "Rachana Panchal", 
-        "Ishan Panchal",
-        "Madison Robinson",
-        "Jonathan Trusty"
-      ]
-    },
-    {
-      "number": 11,
-      "names": [
-        "Ngozi Ogbonna",
-        "Ty Ryan",
-        "Bridget Ochucko", 
-        "Cristina Sanchez", 
-        "Nela Handac",
-        "Ryan Chen"  
-      ]
-    },
-    {
-      "number": 12,
       "names": [
         "Linda Tran",
         "Nikki Dionisio",
@@ -152,7 +134,7 @@
       ]
     },
     {
-      "number": 13,
+      "number": 11,
       "names": [
         "Will Wu", 
         "Erica Shang",
@@ -167,7 +149,7 @@
       ]
     },
     {
-      "number": 14,
+      "number": 12,
       "names": [
         "Chaewon Bang",
         "Tim Park", 
@@ -182,7 +164,22 @@
       ]
     },
     {
-      "number": 15,
+      "number": 13,
+      "names": [
+        "Dhruti Patel",
+        "Kunal Shah",
+        "Madison Robinson",
+        "Jonathan Trusty",
+        "Ngozi Ogbonna",
+        "Ty Ryan",
+        "Bridget Ochucko", 
+        "Cristina Sanchez", 
+        "Nela Handac",
+        "Ryan Chen"  
+      ]
+    },
+    {
+      "number": 14,
       "names": [
         "Abby Vander Laan",
         "Ale Escobar",
@@ -195,7 +192,7 @@
       ]
     },
     {
-      "number": 16,
+      "number": 15,
       "names": [
         "Kristen Ma",
         "Rui Leng",
@@ -206,7 +203,7 @@
       ]
     },
     {
-      "number": 17,
+      "number": 16,
       "names": [
         "Joseph Beatty",
         "Issac Avalia",

@@ -6,9 +6,10 @@ import { DinnerComponent } from './dinner/dinner.component';
 import { FindYourTableComponent } from './find-your-table/find-your-table.component';
 import { NavComponent } from './nav/nav.component';
 import { ActivitiesComponent } from './activities/activities.component';
+import { CeremonyComponent } from './ceremony/ceremony.component';
 
 const routes: Routes = [
-  { path: 'schedule', component: ScheduleComponent },
+  { path: 'ceremony', component: CeremonyComponent },
   { path: 'cocktail', component: CocktailComponent},
   { path: 'menu', component: DinnerComponent},
   { path: 'seating-chart', component: FindYourTableComponent},

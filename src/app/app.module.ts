@@ -10,6 +10,7 @@ import { FindYourTableComponent } from './find-your-table/find-your-table.compon
 import { NavComponent } from './nav/nav.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { FormsModule } from '@angular/forms';
+import { CeremonyComponent } from './ceremony/ceremony.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     DinnerComponent,
     FindYourTableComponent,
     NavComponent,
-    ActivitiesComponent
+    ActivitiesComponent,
+    CeremonyComponent
   ],
   imports: [
     BrowserModule,

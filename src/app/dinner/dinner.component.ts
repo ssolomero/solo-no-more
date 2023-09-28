@@ -48,6 +48,11 @@ export class DinnerComponent implements OnInit {
       {
         name: 'herb roasted fingerling potatoes'
       }
+    ],
+    desserts: [
+      {
+        name: 'ube cupcakes'
+      }
     ]
   }
 

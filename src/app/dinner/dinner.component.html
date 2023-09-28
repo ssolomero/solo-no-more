@@ -26,11 +26,19 @@
     </div>
   </div>
 
-  <div class="mb-3">
+  <div class="mb-5">
     <div class="subhead">sides</div>
     <div *ngFor="let side of menu.sides" class="">
       <div class="">{{side.name}}</div>
     </div>
   </div>
+
+  <div class="mb-3">
+    <div class="subhead">dessert</div>
+    <div *ngFor="let dessert of menu.desserts" class="">
+      <div class="">{{dessert.name}}</div>
+    </div>
+  </div>
+
 
 </div>
