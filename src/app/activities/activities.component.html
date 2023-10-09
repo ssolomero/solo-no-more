@@ -2,107 +2,23 @@
   <div class="header">festivities</div>
   <div class="accordion" id="accordion">
 
-    <!-- photobooth -->
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
+    <div *ngFor="let activity of activities; index as i" class="accordion-item">
+      <h2 class="accordion-header" id="heading{{i}}">
         <button class="accordion-button subhead text-center collapsed" type="button" 
-          data-bs-toggle="collapse" data-bs-target="#collapseOne" 
-          aria-expanded="true" aria-controls="collapseOne">
-          photobooth
+          data-bs-toggle="collapse" attr.data-bs-target="#collapse{{i}}" 
+          aria-expanded="true" attr.aria-controls="collapse{{i}}">
+          {{activity.name}}
         </button>
       </h2>
-      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion">
-        <div class="accordion-body">
-          <div class="body mb-2">check out the photobooth for your chance to be atlanta's own. this one is for all the dogs.</div>
-          <div>
-            <img src="../../assets/bball-draft.jpeg" alt="" class="b-w-photo" style="width: 100%; max-width: 500px;">
-          </div>
-          <div class="my-4">or just be glam</div>
-          <div><img src="../../assets/glam-booth.jpeg" alt="" style="width: 100%; max-width: 500px;"></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- guestbook -->
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button subhead text-center collapsed" type="button" 
-          data-bs-toggle="collapse" data-bs-target="#collapseTwo" 
-          aria-expanded="true" aria-controls="collapseTwo">
-          guestbook
-        </button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
-        <div class="accordion-body">
-          <div class="mb-2">
-            <strong>
-              take a polaroid, tape it to a page, and leave a note
-            </strong>
-          </div>
-          <div class="description mt-3">you can find the guestbook at the welcome table</div>
-        </div>
-      </div>
-    </div>
-
-      <!-- Group Photo -->
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingFour">
-        <button class="accordion-button subhead text-center collapsed" type="button" 
-          data-bs-toggle="collapse" data-bs-target="#collapseFour" 
-          aria-expanded="true" aria-controls="collapseFour">
-          group photos
-        </button>
-      </h2>
-      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordion">
-        <div class="accordion-body">
-          <div class="my-3">
-            after the ceremony, we would like to take photos with our favorite people. please be aware
-            for when your group is called:
-          </div>
-          <div class="my-3">
-            <strong>relatives, cibc family, cibc youths, ga tech, uga, emory, ga state, atx</strong>
-          </div>
-          <div class="description my-3">
-            *our photographer will take the photos, so we don't need yours. unless, taken on android.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- cornhole -->
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingThree">
-        <button class="accordion-button subhead text-center collapsed" type="button" 
-          data-bs-toggle="collapse" data-bs-target="#collapseThree" 
-          aria-expanded="true" aria-controls="collapseThree">
-          cornhole
-        </button>
-      </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
-        <div class="accordion-body">
-          <div class="mb-2">for the non-dancers</div>
-          <div>
-            <img src="../../assets/cornhole.gif" alt="" class="b-w-photo" style="width: 100%; max-width: 500px;">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- money dance -->
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingFive">
-        <button class="accordion-button subhead text-center collapsed" type="button" 
-          data-bs-toggle="collapse" data-bs-target="#collapseFive" 
-          aria-expanded="true" aria-controls="collapseFive">
-          money dance
-        </button>
-      </h2>
-      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
-        <div class="accordion-body">
-          <div class="mb-2">pin money on the bride & groom and join the queue to dance with them</div>
-          <div>
-            <img src="../../assets/money_dance.jpeg" alt="" class="b-w-photo" style="width: 100%; max-width: 500px;">
-          </div>
+      <div id="collapse{{i}}" class="accordion-collapse collapse" attr.aria-labelledby="heading{{i}}" data-bs-parent="#accordion">
+        <div *ngFor="let content of activity.content" class="accordion-body">
+          <div *ngIf="content.type === 'img'; then imgBlock else textBlock"></div>
+          <ng-template #imgBlock>
+            <div><img src="{{content.src}}" alt="" class="{{content.classes}}"></div>
+          </ng-template>
+          <ng-template #textBlock>
+            <div class="{{content.classes}}">{{content.text}}</div>
+          </ng-template>
         </div>
       </div>
     </div>

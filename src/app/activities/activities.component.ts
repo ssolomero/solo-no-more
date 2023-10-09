@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ACTIVITIES } from './activities.content'
 
 @Component({
   selector: 'app-activities',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./activities.component.scss']
 })
 export class ActivitiesComponent implements OnInit {
+
+  activities = ACTIVITIES;
 
   constructor() { }
 

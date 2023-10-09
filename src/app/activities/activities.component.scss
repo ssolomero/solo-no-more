@@ -4,4 +4,10 @@
 
 .b-w-photo {
   filter: grayscale(100%);
+  max-width: 500px;
+  width: 100%;
+}
+
+.bold {
+  font-weight: bold;
 }
